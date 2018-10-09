@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/raghub10/Protractor-jasmine-javascript-pom#readme",
   "devDependencies": {
+    "fs": "0.0.1-security",
     "jasmine": "^3.2.0",
     "jasmine-console-reporter": "^3.1.0",
     "protractor": "^5.4.1",

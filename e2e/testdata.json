@@ -1,0 +1,12 @@
+{
+    "testcase1": {
+        "username" : "angular",
+        "password" : "password",
+        "usernameDescription" : "Description about user"
+    },
+    "testcase2": {
+        "username" : "angular1",
+        "password" : "password123",
+        "usernameDescription" : "Description about user"
+    }
+}
