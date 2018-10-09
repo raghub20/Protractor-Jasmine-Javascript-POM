@@ -1,0 +1,25 @@
+{
+  "name": "protractor-jasmine-javascript-pom",
+  "version": "1.0.0",
+  "description": "Protractor automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghub10/Protractor-jasmine-javascript-pom.git"
+  },
+  "author": "Raghu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghub10/Protractor-jasmine-javascript-pom/issues"
+  },
+  "homepage": "https://github.com/raghub10/Protractor-jasmine-javascript-pom#readme",
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "protractor": "^5.4.1",
+    "protractor-pretty-html-reporter": "0.0.16"
+  }
+}
