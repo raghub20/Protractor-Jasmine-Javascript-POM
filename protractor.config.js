@@ -20,20 +20,14 @@ exports.config = {
         'browserName' : 'chrome'
     },
 
-    directConnect : true,
+    //directConnect : true,
     //selenium server jar
     //seleniumServerJar : "./node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.14.0.jar",
 
-    specs : ["./e2e/specs/login-spec.js"],
+    specs : ["./e2e/specs/*spec.js"],
 
     onPrepare() {
-        jasmine.getEnv().addReporter(reporter);
-        //jasmine.getEnv().addReporter(prettyReporter);
-    },
-    baseUrl : "http://www.way2automation.com/angularjs-protractor",
-
-    params : {
-        loginUrl : "http://www.way2automation.com/angularjs-protractor/registeration/#/login",
-        bankUrl : "http://www.way2automation.com/angularjs-protractor/banking/#/login" 
+        //jasmine.getEnv().addReporter(reporter);
+        jasmine.getEnv().addReporter(prettyReporter);
     }
 }

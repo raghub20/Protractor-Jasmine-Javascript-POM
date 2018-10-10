@@ -4,7 +4,8 @@
   "description": "Protractor automation framework",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "pretest": "webdriver-manager update",
+    "test": "protractor protractor.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/raghub10/Protractor-jasmine-javascript-pom#readme",
   "devDependencies": {
     "fs": "0.0.1-security",
+    "fs-extra": "^7.0.0",
     "jasmine": "^3.2.0",
     "jasmine-console-reporter": "^3.1.0",
     "protractor": "^5.4.1",

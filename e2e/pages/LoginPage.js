@@ -28,6 +28,17 @@ var LoginPage = function() {
         }
         return actualResultMsg;
     }
+    this.getUsernameErrorMessage = function() {
+        return element(by.xpath("//label[text()='Username']//parent::div//div[@class='ng-scope']")).getText();
+    }
+
+    this.getPasswordErrorMessage = function() {
+        return element(by.xpath("//label[text()='Password']//parent::div//div[@class='ng-scope']")).getText();
+    }
+
+    this.getUsernameDescriptionErrorMessage = function() {
+        return element(by.id("formly_1_input_username_0_description")).getText();
+    }
 }
 
 module.exports = LoginPage;
