@@ -24,7 +24,7 @@ exports.config = {
     //selenium server jar
     //seleniumServerJar : "./node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.14.0.jar",
 
-    specs : ["./e2e/specs/*spec.js"],
+    specs : ["./e2e/specs/login-spec.js"],
 
     onPrepare() {
         //jasmine.getEnv().addReporter(reporter);
